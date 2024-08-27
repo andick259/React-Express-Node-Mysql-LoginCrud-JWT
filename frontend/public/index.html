@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/indonesia.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/indonesia.png" />
+     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Karang Taruna 007</title>
+
+    <style>
+      /* Spinner CSS */
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1); /* Light grey */
+  border-left: 4px solid #fff; /* White */
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+  margin-right: 8px; /* Space between spinner and text */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.text-with-lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-with-lines::before,
+.text-with-lines::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #999; /* Muted color for the lines */
+  margin: 0 10px; /* Adjust the space between text and lines */
+}
+
+.centered-text {
+  color: #999; /* Muted color for the text */
+  margin: 0;
+}
+    </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+   </body>
+</html>

@@ -1,0 +1,29 @@
+GET  http://localhost:5000/peserta
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwZXNlcnRhSWQiOjEsIm5hbWUiOiJhbmRpIiwiZW1haWwiOiJhbmRpQGdtYWlsLmNvbSIsImlhdCI6MTcyNDYxMzAyMCwiZXhwIjoxNzI0NjEzMDM1fQ.sWZcJyzp3O08znjv-mSaA9gp-xU9noEg6RG4J7xlnG8
+
+###
+POST  http://localhost:5000/peserta
+Content-Type: application/json
+
+{
+    "name": "Andi",
+    "email": "Andi@gmail.com",
+    "password": "123123",
+    "confPassword": "123123"
+}
+S
+###
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "Andi@gmail.com",
+    "password": "bismillah"
+}
+
+
+###
+GET  http://localhost:5000/token
+
+###
+DELETE  http://localhost:5000/logout
